@@ -1,0 +1,68 @@
+@import '../../App/variable.scss';
+.header {
+  background-color: var(--background-header);
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  transition: all linear 0.3s;
+  z-index: 9999999;
+  & .logo {
+    height: 110px;
+    width: 110px;
+    margin: 0 40px;
+    border-radius: 100rem;
+    transition: all linear 0.3s;
+    & img {
+      border-radius: 100rem;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+  & .nav-header {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    & .list-nav {
+      width: 100%;
+      height: 70%;
+      display: flex;
+      gap: 0 50px;
+      justify-content: center;
+      align-items: flex-end;
+
+      font-size: 1rem;
+      font-weight: 500;
+      color: rgb(247, 247, 247);
+
+      & .router-nav {
+        &.active {
+          border-bottom: 2px solid white;
+        }
+      }
+    }
+  }
+  &.scrooll {
+    transition: all linear 0.3s;
+    & .logo {
+      height: 100px;
+      width: 100px;
+      margin: 0 40px;
+    }
+    background-color: rgba(255, 255, 255, 0.753);
+    & .nav-header {
+      & .list-nav {
+        transition: all linear 0.3s;
+        color: #000;
+        & .router-nav {
+          &.active {
+            border-bottom: 2px solid rgb(80, 79, 79);
+          }
+        }
+      }
+    }
+  }
+}
