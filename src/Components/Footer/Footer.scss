@@ -1,0 +1,17 @@
+.footer {
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  & a {
+    color: white;
+  }
+  & .logo img {
+    width: 220px;
+    height: 220px;
+    border-radius: 100rem;
+  }
+}

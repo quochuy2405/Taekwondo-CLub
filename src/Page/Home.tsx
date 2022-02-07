@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import Sliders from '../Components/Slider/Sliders'
 import './Home.scss'
@@ -118,7 +119,7 @@ function Home() {
           />
         </div>
         <div className="taekwondo-rule">
-          <p className="title-name">Taekwondo Krông Pa</p>
+          <p className="title-name">TAEKWONDO Krông Pa</p>
           <p>
             Trang phục của môn võ Taekwondo hay còn được gọi là Dobok là đồng phục quần áo trắng và
             kèm theo 1 chiếc đai. Các học viên đều mặc đồng phục áo trắng giống nhau thể hiện mọi
@@ -180,7 +181,7 @@ function Home() {
             style={{ transform: 'scale(1)', width: '50%' }}
           />
         </div>
-        <div className="div" style={{ height: '1000px' }}></div>
+        <Footer />
       </div>
     </div>
   )

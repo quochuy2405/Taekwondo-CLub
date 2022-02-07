@@ -3,11 +3,11 @@ import './Slider.scss'
 const listContent = [
   {
     img: 'https://images.pexels.com/photos/7045555/pexels-photo-7045555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1050&w=1040',
-    title: 'Taekwondo  Phú Túc',
+    title: 'Taekwondo Thị Trấn Phú Túc',
   },
   {
     img: 'https://images.pexels.com/photos/7045669/pexels-photo-7045669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    title: 'Taekwondo  Chư Đrăng',
+    title: 'Taekwondo Chư Đrăng',
   },
   {
     img: 'https://images.pexels.com/photos/7045669/pexels-photo-7045669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
