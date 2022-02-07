@@ -8,10 +8,36 @@
   color: white;
   & a {
     color: white;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    align-items: center;
   }
   & .logo img {
     width: 220px;
     height: 220px;
     border-radius: 100rem;
+  }
+
+  & .text-icon {
+    display: inline;
+    font-weight: 500;
+  }
+  & .list-social li {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  & .icon-footer {
+    margin-bottom: -3px;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
