@@ -26,7 +26,7 @@ function SliderCustoms() {
   useEffect(() => {
     const listImage = document.querySelectorAll<HTMLImageElement>('.img-slider')
     const listContent = document.querySelectorAll<HTMLImageElement>('.content-text')
-    let count = listImage.length - 1
+    let count = listImage.length - 2
 
     const time = setInterval(() => {
       count = count < 0 ? listImage.length - 1 : count
