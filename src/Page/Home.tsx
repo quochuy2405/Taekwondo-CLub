@@ -91,10 +91,90 @@ function Home() {
             hoặc 6 tháng lại thi lên một cấp. Sau khi mang đai đen thì khoảng 2 năm lại thi lên đẳng
             một lần.
           </p>
+
           <img
             className="img-history"
             src={
               'https://www.thethaothientruong.vn/uploads/contents/cap-bac-dai-taekwondo-cua-itf.jpg'
+            }
+            alt="cap-dai"
+            style={{ transform: 'scale(1)', width: '50%' }}
+          />
+          <p>
+            - Trường phái Taekwondo WTF có 18 bậc tiến gọi là 18 đẳng/cấp (nói đúng ra là từ cấp rồi
+            mới tới đẳng), khởi đầu môn sinh mang cấp 8 và sau mỗi 3 tháng hoặc 6 tháng lại thi lên
+            một cấp. Sau khi mang đai đen thì khoảng 2 năm lại thi lên đẳng một lần. Hệ Kukkiwon
+            không cho phép võ sinh dưới 15 tuổi đạt các đẳng (dan). Thay vì vậy các võ sinh đạt đẳng
+            "poom", hay "võ sinh đai đen ít tuổi". Võ sinh chưa đến tuổi trưởng thành có thể đạt 4
+            poom và tất cả các đẳng poom đều chuyển thành đẳng (dan) khi võ sinh tới đủ tuổi và qua
+            kỳ thi lên cấp tiếp theo. Mức đẳng (dan) tăng dần tới tối đa là 10 dan, thường cửu đẳng
+            và thập đẳng là cấp bậc danh dự, còn các võ sư thường không đạt được.
+          </p>
+          <img
+            className="img-history"
+            src="https://www.thethaothientruong.vn/uploads/contents/cap-bac-dai-taekwondo-cua-wtf.jpg"
+            alt="cap-dai"
+            style={{ transform: 'scale(1)', width: '50%' }}
+          />
+        </div>
+        <div className="taekwondo-rule">
+          <p className="title-name">Taekwondo Krông Pa</p>
+          <p>
+            Trang phục của môn võ Taekwondo hay còn được gọi là Dobok là đồng phục quần áo trắng và
+            kèm theo 1 chiếc đai. Các học viên đều mặc đồng phục áo trắng giống nhau thể hiện mọi
+            người đều bình đằng, dù bạn là ai, đến từ đâu, thuộc tôn giáo nào. Hơn nữa, đồng phục
+            của Taekwondo giúp các học viên cảm thấy thoải mái và tập luyện dễ dàng hơn. Chiếc đai
+            là đặc điểm duy nhất để phân biệt trên trang phục của học viên Taekwondo. Màu sắc đai
+            lưng không phải chỉ để trang trí mà nó là một hệ thống xếp hạng của môn võ này. Mỗi màu
+            sắc chiếc đai sẽ thể hiện mức độ kỹ năng Taekwondo của bạn. Khi lên một đai mới, tức là
+            kỹ năng của bạn đang tiến bộ hơn. Đai trắng là cấp độ thấp nhất và đai màu đen sẽ là cấp
+            độ cao nhất trong Taekwondo.
+          </p>
+          <img
+            className="img-history"
+            src={
+              'https://scontent.fdad3-4.fna.fbcdn.net/v/t1.6435-9/178957371_113594157529511_3618547222057574718_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=oaYzwpSRvzcAX_qfBDK&_nc_ht=scontent.fdad3-4.fna&oh=00_AT92G-yKqAT1NZIs_JQKzgeYomNC6E6f0d7UysJLrMrjEQ&oe=62257423'
+            }
+            alt="anh"
+          />
+          <p>
+            Thực tế, Taekwondo có 2 tổ chức lớn tồn tại riêng biệt đó là Liên đoàn Taekwondo quốc tế
+            (ITF) và Liên đoàn Taekwondo thế giới (WTF). ITF là một hệ phái do cựu thiếu tướng Hàn
+            Quốc, Choi Hong Hi sáng lập ngày 22 tháng 3 năm 1966. WTF là một tổ chức được Ủy ban
+            Olympic Quốc tế (IOC) công nhận là Liên đoàn thể thao quản lý môn võ Taekwondo ở tầm
+            quốc tế. Liên đoàn Taekwondo thế giới được thành lập trong hội nghị ngày 28 tháng 5 năm
+            1973 tại Kukkiwon, Seoul, Hàn Quốc với 35 đại diện cho các quốc gia tham dự, sau khi
+            Liên đoàn Taekwon-Do quốc tế rời khỏi Hàn Quốc. Hiện tại, WTF là tổ chức lớn mạnh nhất
+            của Taekwondo và ITF đã bị tan rã ra thành nhiều phái nhỏ khi Tổ sư Choi Hong Hi qua đời
+            vào năm 2002. Xét về thứ hạng cấp bậc đai trong 2 tổ chức ITF và WTF cũng gần giống
+            nhau. Cụ thể: - Trường phái Taekwondo ITF có 19 bậc tiến gọi là 19 đẳng (dan) và cấp
+            (geup hay kŭp). Khởi đầu, lúc chưa lên đai đen, môn sinh mang cấp 10, sau mỗi 3 tháng
+            hoặc 6 tháng lại thi lên một cấp. Sau khi mang đai đen thì khoảng 2 năm lại thi lên đẳng
+            một lần.
+          </p>
+
+          <img
+            className="img-history"
+            src={
+              'https://scontent.fdad3-3.fna.fbcdn.net/v/t1.6435-9/176177191_111021971120063_809270293879297783_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=RbabJoI8pwsAX-BSBJt&_nc_ht=scontent.fdad3-3.fna&oh=00_AT_DMnNsY2HUlZmtzzFCWf0eI1QchMiMOWJbeS7SzuC6WQ&oe=62261D39'
+            }
+            alt="cap-dai"
+            style={{ transform: 'scale(1)', width: '50%' }}
+          />
+          <p>
+            - Trường phái Taekwondo WTF có 18 bậc tiến gọi là 18 đẳng/cấp (nói đúng ra là từ cấp rồi
+            mới tới đẳng), khởi đầu môn sinh mang cấp 8 và sau mỗi 3 tháng hoặc 6 tháng lại thi lên
+            một cấp. Sau khi mang đai đen thì khoảng 2 năm lại thi lên đẳng một lần. Hệ Kukkiwon
+            không cho phép võ sinh dưới 15 tuổi đạt các đẳng (dan). Thay vì vậy các võ sinh đạt đẳng
+            "poom", hay "võ sinh đai đen ít tuổi". Võ sinh chưa đến tuổi trưởng thành có thể đạt 4
+            poom và tất cả các đẳng poom đều chuyển thành đẳng (dan) khi võ sinh tới đủ tuổi và qua
+            kỳ thi lên cấp tiếp theo. Mức đẳng (dan) tăng dần tới tối đa là 10 dan, thường cửu đẳng
+            và thập đẳng là cấp bậc danh dự, còn các võ sư thường không đạt được.
+          </p>
+          <img
+            className="img-history"
+            src={
+              'https://scontent.fdad3-4.fna.fbcdn.net/v/t1.6435-9/172411546_105685524987041_5677332559814600881_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Kxi08lW1zYoAX-wGmF5&_nc_ht=scontent.fdad3-4.fna&oh=00_AT9GK_JTepva2K8ES7YcMOI_FbvftLc3dQJX7MuPKrl3hg&oe=6224FE47'
             }
             alt="cap-dai"
             style={{ transform: 'scale(1)', width: '50%' }}
