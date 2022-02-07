@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import Sliders from '../Components/Slider/Sliders'
+import SliderCustoms from '../Components/SliderCustoms/SliderCustoms'
 import './Home.scss'
 function Home() {
   return (
@@ -181,6 +182,7 @@ function Home() {
             style={{ transform: 'scale(1)', width: '50%' }}
           />
         </div>
+        <SliderCustoms  />
         <Footer />
       </div>
     </div>

@@ -1,0 +1,25 @@
+.slider-customes {
+  position: relative;
+  height: 300px;
+  & img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+    opacity: 0.6;
+  }
+  @for $i from 0 through 5 {
+    & img:nth-child(#{$i}) {
+      margin-left: calc((10px * $i));
+      margin-top: calc((10px * $i));
+      z-index: calc(10 * $i);
+    }
+  }
+  & .img-slider.active {
+    transition: all linear 0.5s;
+    z-index: 9999 !important;
+    opacity: 1;
+  }
+}
