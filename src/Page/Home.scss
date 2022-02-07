@@ -1,0 +1,16 @@
+.home {
+  & .history-club,
+  .taekwondo-rule {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    & .img-history {
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+      padding: 20px;
+      border-radius: 25px;
+ 
+    }
+  }
+}

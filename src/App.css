@@ -49,3 +49,9 @@ picture {
 .body-page {
   padding-top: 120px;
 }
+.title-name {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0;
+}
