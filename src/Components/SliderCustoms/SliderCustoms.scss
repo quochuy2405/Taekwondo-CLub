@@ -1,6 +1,21 @@
 .slider-customes {
   position: relative;
   height: 300px;
+  width: 80%;
+  margin: 40px auto;
+
+  & .content-slider--custom {
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 100px;
+    & .content-text {
+      opacity: 0;
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+
   & img {
     position: absolute;
     width: 200px;

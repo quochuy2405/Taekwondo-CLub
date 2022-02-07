@@ -10,6 +10,7 @@ function Home() {
       <Header />
       <div className="body-page">
         <Sliders />
+        <SliderCustoms />
         <div className="history-club">
           <p className="title-name">TAEKWONDO là gì ?</p>
           <p>
@@ -182,7 +183,7 @@ function Home() {
             style={{ transform: 'scale(1)', width: '50%' }}
           />
         </div>
-        <SliderCustoms  />
+
         <Footer />
       </div>
     </div>
