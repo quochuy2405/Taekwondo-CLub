@@ -21,7 +21,8 @@
   & .logo {
     height: 110px;
     width: 110px;
-    margin: 0 40px;
+    margin-left: 85px;
+
     border-radius: 100rem;
     transition: all linear 0.3s;
     & img {
@@ -63,7 +64,7 @@
     & .logo {
       height: 100px;
       width: 100px;
-      margin: 0 40px;
+      margin-left: 85px;
     }
     background-color: rgba(231, 231, 231, 0.877);
     & .nav-header {
