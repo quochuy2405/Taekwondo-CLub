@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './Header.scss'
 import Logo from '../../Image/logo.png'
+import Go from '../../Image/headfig.gif'
 import { NavLink } from 'react-router-dom'
 
 function Header() {
@@ -18,6 +19,7 @@ function Header() {
   }, [])
   return (
     <div className="header">
+      <img src={Go} alt="taekwondo" className='takegif' />
       <div className="logo">
         <img src={Logo} alt="taekwondokrp" />
       </div>

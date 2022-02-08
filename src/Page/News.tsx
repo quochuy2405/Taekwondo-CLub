@@ -44,6 +44,7 @@ function News() {
       <Header />
       <div className="body-page">
         <SliderCustoms />
+        <p className="title-name">Tin tức</p>
         <div className="list-news">
           {listNews.map((x, i) => (
             <NewsItem news={x} key={i} />

@@ -8,6 +8,16 @@
   position: fixed;
   transition: all linear 0.3s;
   z-index: 9999999;
+
+  & .takegif {
+    width: 400px;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 120px;
+    z-index: -1;
+  }
   & .logo {
     height: 110px;
     width: 110px;
