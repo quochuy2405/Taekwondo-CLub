@@ -35,12 +35,16 @@
       align-items: flex-end;
 
       font-size: 1rem;
-      font-weight: 500;
+      font-weight: 40 0;
       color: rgb(247, 247, 247);
 
       & .router-nav {
-        &.active {
-          border-bottom: 2px solid white;
+        & a {
+          text-decoration: none;
+          color: white;
+          &.active p {
+            border-bottom: 2px solid white;
+          }
         }
       }
     }
@@ -58,8 +62,14 @@
         transition: all linear 0.3s;
         color: #000;
         & .router-nav {
-          &.active {
-            border-bottom: 2px solid rgb(80, 79, 79);
+          & a {
+            text-decoration: none;
+            color: rgb(39, 39, 39);
+
+            &.active p {
+              border-bottom: 2px solid rgb(80, 79, 79);
+              color: #000;
+            }
           }
         }
       }

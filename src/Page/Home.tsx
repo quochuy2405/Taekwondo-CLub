@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import Sliders from '../Components/Slider/Sliders'
 import SliderCustoms from '../Components/SliderCustoms/SliderCustoms'
-import './Home.scss'
+import './Style/Home.scss'
 function Home() {
+  useEffect(() => {
+    window.scroll(0, 0)
+  }, [])
   return (
     <div className="home">
       <Header />

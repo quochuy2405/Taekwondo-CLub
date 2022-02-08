@@ -3,14 +3,14 @@ import { Route, Routes } from 'react-router'
 
 import './App.css'
 import Home from './Page/Home'
-import Profile from './Page/Profile'
+import News from './Page/News'
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="profile/*" element={<Profile />} />
+        <Route path="news" element={<News />} />
       </Routes>
     </div>
   )

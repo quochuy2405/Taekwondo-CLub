@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './Header.scss'
 import Logo from '../../Image/logo.png'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
   useEffect(() => {
@@ -23,19 +24,29 @@ function Header() {
       <div className="nav-header">
         <ul className="list-none list-nav">
           <li className="router-nav active">
-            <p>Trang chủ</p>
+            <NavLink to={'/'}>
+              <p>Trang chủ</p>
+            </NavLink>
           </li>
           <li className="router-nav">
-            <p>Tin tức</p>
+            <NavLink to={'/news'}>
+              <p>Tin tức</p>
+            </NavLink>
           </li>
           <li className="router-nav">
-            <p>Giới thiệu</p>
+            <NavLink to={'/introduce'}>
+              <p>Giới thiệu</p>
+            </NavLink>
           </li>
           <li className="router-nav">
-            <p>Thành tích</p>
+            <NavLink to={'/gratulation'}>
+              <p>Thành tích</p>
+            </NavLink>
           </li>
           <li className="router-nav">
-            <p>Các điểm trường CLB TAEKWONDO KRÔNG PA</p>
+            <NavLink to={'/address'}>
+              <p>Các điểm trường CLB TAEKWONDO KRÔNG PA</p>
+            </NavLink>
           </li>
         </ul>
       </div>
