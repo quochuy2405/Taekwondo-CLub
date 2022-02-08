@@ -12,7 +12,7 @@ interface News {
 function NewsItem({ news }: { news: News }) {
   return (
     <div className="news-item">
-      <Link to={`/new/${news.id}`}>
+      <Link to={`/news/${news.id}`}>
         <img src={news.img} className="new-image" alt="" />
         <div className="content-news">
           <p className="title-news">{news.title}</p>

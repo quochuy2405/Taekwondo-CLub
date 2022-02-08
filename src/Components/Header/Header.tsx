@@ -46,7 +46,7 @@ function Header() {
             </NavLink>
           </li>
           <li className="router-nav">
-            <NavLink to={'/address'}>
+            <NavLink to={'/point'}>
               <p>Các điểm trường CLB TAEKWONDO KRÔNG PA</p>
             </NavLink>
           </li>
