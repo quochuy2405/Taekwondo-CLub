@@ -1,0 +1,21 @@
+.slider-news {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  & .list-sliders {
+    width: 200%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 10px;
+
+    transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+
+    & .slider-item {
+      width: calc((100 / 3) * 100vw);
+    }
+  }
+}

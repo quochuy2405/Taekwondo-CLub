@@ -1,0 +1,28 @@
+.review-news {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  & .avatar img {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    object-fit: cover;
+    border-radius: 100rem;
+  }
+  & .content-news {
+    padding: 0 10px;
+    display: flex;
+    gap: 20px;
+    & .medals {
+      img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+      }
+    }
+  }
+}

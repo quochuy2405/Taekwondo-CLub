@@ -3,6 +3,7 @@ import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import Sliders from '../Components/Slider/Sliders'
 import SliderCustoms from '../Components/SliderCustoms/SliderCustoms'
+import SliderNews from '../Components/SliderNews/SliderNews'
 import './Style/Home.scss'
 function Home() {
   useEffect(() => {
@@ -14,6 +15,9 @@ function Home() {
       <div className="body-page">
         <Sliders />
         <SliderCustoms />
+        <div className="parallax">
+          <SliderNews />
+        </div>
         <div className="history-club">
           <p className="title-name">TAEKWONDO là gì ?</p>
           <p>
@@ -123,6 +127,7 @@ function Home() {
             style={{ transform: 'scale(1)', width: '50%' }}
           />
         </div>
+
         <div className="taekwondo-rule">
           <p className="title-name">TAEKWONDO Krông Pa</p>
           <p>
