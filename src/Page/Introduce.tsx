@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
+import ImageShowFlex from '../Components/ImageShowFlex/ImageShowFlex'
 import Sliders from '../Components/Slider/Sliders'
 import SliderCustoms from '../Components/SliderCustoms/SliderCustoms'
 import './Style/Introduce.scss'
@@ -13,7 +14,7 @@ function Introduce() {
       <Header />
       <div className="body-page">
         <Sliders />
-        <SliderCustoms />
+        <ImageShowFlex />
         <div className="content-introduce" style={{ width: '80%', margin: '0 auto' }}>
           <p className="title-name">Lịch sử thành lập</p>
           <p>

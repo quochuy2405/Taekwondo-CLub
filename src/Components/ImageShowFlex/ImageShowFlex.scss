@@ -1,0 +1,62 @@
+@import url('../../App/variable.scss');
+.image-show--flex {
+  width: 100%;
+  height: 100vh;
+  margin: 40px 0;
+  background-color: var(--primary-color-blue);
+  & .list-img {
+    width: 100%;
+    height: 70%;
+    display: flex;
+
+    & .image-item--flex {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      color: white;
+      overflow: hidden;
+      &:hover .info-item {
+        transform: translateY(0%);
+        transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 0.6s 0.1s;
+      }
+      & .info-item {
+        position: absolute;
+        width: 100%;
+        height: 40%;
+        bottom: 0;
+        background-color: #3fd0d4;
+        text-align: center;
+        transform: translateY(100%);
+        transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 0.7s;
+
+        & .name {
+          font-size: 1.1rem;
+          font-weight: 600;
+
+          padding: 10px;
+        }
+        & .description {
+          font-size: 0.9rem;
+        }
+        & .list-icon-contact ul {
+          display: flex;
+          list-style: none;
+          justify-content: center;
+          gap: 20px;
+          padding: 0;
+
+          & .icon-contact {
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
