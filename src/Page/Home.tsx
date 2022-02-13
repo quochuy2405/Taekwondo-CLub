@@ -6,6 +6,7 @@ import SliderCustoms from '../Components/SliderCustoms/SliderCustoms'
 import SliderNews from '../Components/SliderNews/SliderNews'
 import NewsList from './../Components/NewsList/NewsList'
 import './Style/Home.scss'
+import ImageShowFlex from './../Components/ImageShowFlex/ImageShowFlex'
 function Home() {
   useEffect(() => {
     window.scroll(0, 0)
@@ -15,19 +16,17 @@ function Home() {
       <Header />
       <div className="body-page">
         <Sliders />
+
         <SliderCustoms />
+        <ImageShowFlex />
         <p className="title-name">Tin nổi bật</p>
         <div className="list-news-home">
           <NewsList num={4} />
-          <div className="btn-view">
-            
-          </div>
+          <div className="btn-view"></div>
         </div>
-       
 
         <div className="parallax">
           <SliderNews />
-
         </div>
         <div className="history-club">
           <p className="title-name">TAEKWONDO là gì ?</p>
