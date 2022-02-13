@@ -4,6 +4,7 @@ import Header from '../Components/Header/Header'
 import Sliders from '../Components/Slider/Sliders'
 import SliderCustoms from '../Components/SliderCustoms/SliderCustoms'
 import SliderNews from '../Components/SliderNews/SliderNews'
+import NewsList from './../Components/NewsList/NewsList'
 import './Style/Home.scss'
 function Home() {
   useEffect(() => {
@@ -15,7 +16,7 @@ function Home() {
       <div className="body-page">
         <Sliders />
         <SliderCustoms />
-        
+        <NewsList num={4} />
         <div className="parallax">
           <SliderNews />
         </div>

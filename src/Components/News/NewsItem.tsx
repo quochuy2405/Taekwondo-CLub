@@ -16,7 +16,9 @@ function NewsItem({ news }: { news: News }) {
   return (
     <div className="news-item">
       <Link to={`/news/${news.id}`}>
-        <img src={news.img} className="new-image" alt="" />
+        <div className="box-image">
+          <img src={news.img} className="new-image" alt="" />
+        </div>
         <div className="num-seen">
           <div className="icon">
             <Tooltip title={`${new Date(Date.now())}`}>

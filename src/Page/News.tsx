@@ -3,39 +3,10 @@ import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import NewsItem from '../Components/News/NewsItem'
 import SliderCustoms from './../Components/SliderCustoms/SliderCustoms'
+import { listNews } from '../App/constant'
 import './Style/News.scss'
-const listNews = [
-  {
-    id: '22',
-    img: 'https://images.pexels.com/photos/7045555/pexels-photo-7045555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1050&w=1040',
-    title: 'Tiêu đề bài báo',
-    description: `This is when I tried googling my issue and frankly I just cannot figure out what's wrong even without googling. Any help is greatly appreciated and if you could also explain why what I've done does not work I would love that a lot`,
-  },
-  {
-    id: '22',
-    img: 'https://images.pexels.com/photos/7045555/pexels-photo-7045555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1050&w=1040',
-    title: 'Tiêu đề bài báo',
-    description: `This is when I tried googling my issue and frankly I just cannot figure out what's wrong even without googling. Any help is greatly appreciated and if you could also explain why what I've done does not work I would love that a lot`,
-  },
-  {
-    id: '22',
-    img: 'https://images.pexels.com/photos/7045555/pexels-photo-7045555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1050&w=1040',
-    title: 'Tiêu đề bài báo',
-    description: `This is when I tried googling my issue and frankly I just cannot figure out what's wrong even without googling. Any help is greatly appreciated and if you could also explain why what I've done does not work I would love that a lot`,
-  },
-  {
-    id: '22',
-    img: 'https://images.pexels.com/photos/7045555/pexels-photo-7045555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1050&w=1040',
-    title: 'Tiêu đề bài báo',
-    description: `This is when I tried googling my issue and frankly I just cannot figure out what's wrong even without googling. Any help is greatly appreciated and if you could also explain why what I've done does not work I would love that a lot`,
-  },
-  {
-    id: '22',
-    img: 'https://images.pexels.com/photos/7045555/pexels-photo-7045555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1050&w=1040',
-    title: 'Tiêu đề bài báo',
-    description: `This is when I tried googling my issue and frankly I just cannot figure out what's wrong even without googling. Any help is greatly appreciated and if you could also explain why what I've done does not work I would love that a lot`,
-  },
-]
+import NewsList from '../Components/NewsList/NewsList'
+
 function News() {
   useEffect(() => {
     window.scroll(0, 0)
@@ -46,11 +17,7 @@ function News() {
       <div className="body-page">
         <SliderCustoms />
         <p className="title-name">Tin tức</p>
-        <div className="list-news">
-          {listNews.map((x, i) => (
-            <NewsItem news={x} key={i} />
-          ))}
-        </div>
+        <NewsList />
       </div>
       <Footer />
     </div>
