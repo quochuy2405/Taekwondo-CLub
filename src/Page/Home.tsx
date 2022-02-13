@@ -15,6 +15,7 @@ function Home() {
       <div className="body-page">
         <Sliders />
         <SliderCustoms />
+        
         <div className="parallax">
           <SliderNews />
         </div>

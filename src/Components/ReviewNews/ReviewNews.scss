@@ -1,3 +1,4 @@
+@import '../../App/variable.scss';
 .review-news {
   width: 100%;
   height: 200px;
@@ -14,14 +15,35 @@
     border-radius: 100rem;
   }
   & .content-news {
-    padding: 0 10px;
+    padding: 20px;
     display: flex;
-    gap: 20px;
-    & .medals {
-      img {
-        width: 40px;
-        height: 40px;
-        object-fit: cover;
+    flex-direction: column;
+    gap: 5px;
+    & .name {
+      font-weight: 600;
+      font-size: 1.2rem;
+      padding: 5px 20px;
+    }
+    & .mid-contend {
+      padding: 0 10px;
+      display: flex;
+      gap: 20px;
+      & .medals {
+        img {
+          width: 40px;
+          min-width: 40px;
+          height: 40px;
+          object-fit: cover;
+        }
+      }
+    }
+    & .view-more a {
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 20px;
+      &:hover {
+        color: var(--primary-color);
       }
     }
   }

@@ -5,8 +5,7 @@ import destination from '../../Image/location.png'
 import user from '../../Image/user.png'
 import './NewsItem.scss'
 import Tooltip from '@mui/material/Tooltip'
-const link =
-  'https://images.pexels.com/photos/8038026/pexels-photo-8038026.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+
 interface News {
   id: string
   img: string
