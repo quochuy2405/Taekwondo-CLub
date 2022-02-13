@@ -10,8 +10,10 @@
     margin-top: 100px;
     & .content-text {
       opacity: 0;
+      font-weight: 600;
+      
       &.active {
-        opacity: 1;
+        opacity: 0.9;
       }
     }
   }

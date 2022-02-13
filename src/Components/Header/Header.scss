@@ -1,8 +1,8 @@
 @import '../../App/variable.scss';
 .header {
-  background-color: var(--background-header);
+  background-color: white;
   width: 100%;
-  height: 120px;
+  height: 110px;
   display: flex;
   align-items: center;
   position: fixed;
@@ -10,17 +10,17 @@
   z-index: 9999999;
 
   & .takegif {
-    width: 350px;
+    width: 300px;
     position: absolute;
     top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 120px;
+    height: 100px;
     z-index: -1;
   }
   & .logo {
-    height: 110px;
-    width: 110px;
+    height: 100px;
+    width: 100px;
     margin-left: 85px;
 
     border-radius: 100rem;
@@ -46,8 +46,8 @@
       justify-content: center;
       align-items: flex-end;
 
-      font-size: 1.1rem;
-      font-weight: 400;
+      font-size: 1rem;
+      font-weight: 600;
 
       & .router-nav {
         & a {
@@ -67,11 +67,11 @@
   &.scrooll {
     transition: all linear 0.3s;
     & .logo {
-      height: 100px;
-      width: 100px;
+      height: 90px;
+      width: 90px;
       margin-left: 85px;
     }
-    background-color: rgba(253, 252, 252, 0.877);
+    background-color: rgba(253, 252, 252, 0.932);
     & .nav-header {
       & .list-nav {
         transition: all linear 0.3s;

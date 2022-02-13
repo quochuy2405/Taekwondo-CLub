@@ -11,7 +11,7 @@ const listContent = [
   },
   {
     img: 'https://images.pexels.com/photos/7045669/pexels-photo-7045669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    title: 'Đội tuyển TAEKWONDO Krông Pa',
+    title: 'Đội tuyển Taekwondo Krông Pa',
   },
 ]
 function Slider({ image, title }: { image: string; title: string }) {

@@ -17,9 +17,17 @@ function Home() {
         <Sliders />
         <SliderCustoms />
         <p className="title-name">Tin nổi bật</p>
-        <NewsList num={4} />
+        <div className="list-news-home">
+          <NewsList num={4} />
+          <div className="btn-view">
+            
+          </div>
+        </div>
+       
+
         <div className="parallax">
           <SliderNews />
+
         </div>
         <div className="history-club">
           <p className="title-name">TAEKWONDO là gì ?</p>
@@ -68,6 +76,13 @@ function Home() {
             Taekwondo Việt Nam giành được huy chương bạc tại Olympic Sydney 2000 và là vận động viên
             Việt Nam đầu tiên giành huy chương tại đấu trường Olympic.
           </p>
+          <img
+            className="img-history"
+            src={
+              'https://images.pexels.com/photos/7045620/pexels-photo-7045620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+            }
+            alt=""
+          />
         </div>
         <div className="taekwondo-rule">
           <p className="title-name">Trang phục và hệ thống đai trong Taekwondo</p>

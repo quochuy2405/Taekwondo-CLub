@@ -1,0 +1,6 @@
+@import url('./variable.scss');
+@mixin buttonView($w, $h) {
+  width: $w;
+  height: $h;
+  background-color: var(--primary-color-blue);
+}
