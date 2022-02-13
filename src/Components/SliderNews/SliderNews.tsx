@@ -2,11 +2,6 @@ import React, { useCallback, useEffect } from 'react'
 import ReviewNews from '../ReviewNews/ReviewNews'
 import './SliderNews.scss'
 function SliderNews() {
-  const windowWidth = useCallback(() => {
-    console.log(windowWidth)
-    return window.innerWidth
-  }, [window.innerWidth])
-
   useEffect(() => {
     const listSliders = document.querySelector<HTMLDivElement>('.slider-news .list-sliders')
     const listLenght = document.querySelectorAll<HTMLDivElement>(
@@ -15,7 +10,7 @@ function SliderNews() {
     let count = 1
     const timeOut = setInterval(() => {
       count = count > Math.floor(listLenght / 3) ? 0 : count
-      if (listSliders) listSliders.style.transform = `translateX(-${33.333 * count}vw)`
+      if (listSliders) listSliders.style.transform = `translateX(-${(33.333 * count)-0.4}vw)`
       count++
     }, 3000)
 
@@ -27,7 +22,7 @@ function SliderNews() {
     <>
       {' '}
       <div className="slider-news">
-        <p className="title-name" style={{ color: 'white', fontWeight: '600' }}>
+        <p className="title-name">
           Tuyên dương thành tích
         </p>
         <div className="list-sliders">

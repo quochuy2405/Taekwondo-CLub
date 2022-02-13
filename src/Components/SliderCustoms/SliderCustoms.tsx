@@ -61,7 +61,7 @@ function SliderCustoms() {
         {listSlider.map((item, index) => (
           <img
             key={index}
-            className={`img-slider ${index === 4 && 'active'}`}
+            className={`img-slider ${index === listSlider.length - 1 && 'active'}`}
             src={item.img}
             alt=""
           />
@@ -70,7 +70,9 @@ function SliderCustoms() {
       <div className="list-content">
         {listSlider.map((item, index) => (
           <div className="content-slider--custom" key={index}>
-            <p className={`content-text ${index === 4 ? 'active' : ''}`}>{item.content}</p>
+            <p className={`content-text ${index === listSlider.length - 1 ? 'active' : ''}`}>
+              {item.content}
+            </p>
           </div>
         ))}
       </div>
